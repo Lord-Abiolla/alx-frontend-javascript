@@ -31,7 +31,7 @@ interface StudentClassInterface {
     workOnHomework(): string;
     displayName(): string;
 }
-class StudentClass implements StudentClassInterface {
+class StudentClass {
     firstName: string;
     lastName: string;
 
